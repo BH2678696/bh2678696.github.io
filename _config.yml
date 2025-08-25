@@ -2,4 +2,4 @@ title: My WildCat Studios Portfolio description: >-
          This is my portfolio showcasing my projects and skills.
 baseurl: ""
 url: "https://BH2678696.github.io"
-theme: time-machine
+theme: jekyll-theme-time machine
