@@ -12,3 +12,5 @@ Have a great day to whoever is reading this :).
 ![image alt](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMDCCZCksIkBIT8gvvuKHCdEfw0VsEzo-n-Q&s)
 ![image alt](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-tj1MjczKUccWwqJ9UqXvjqiKUOoZG2K5Cw&s)
 ![image alt](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPchAAYbQkK0fBvntV-9TXmVEWDwMwYQVQQ&s)
+
+P.S. I have almost no idea what I'm doing in computer science- trying my best, though :').
