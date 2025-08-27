@@ -11,4 +11,4 @@ Have a great day to whoever is reading this :).
 
 ![image alt](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMDCCZCksIkBIT8gvvuKHCdEfw0VsEzo-n-Q&s)
 ![image alt](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-tj1MjczKUccWwqJ9UqXvjqiKUOoZG2K5Cw&s)
-![image alt](https://www.google.com/imgres?q=math%20pictures&imgurl=https%3A%2F%2Fwww.the74million.org%2Fwp-content%2Fuploads%2F2023%2F02%2FiStock-470493341-copy.jpg&imgrefurl=https%3A%2F%2Fwww.the74million.org%2Farticle%2F6-teachers-tell-their-secrets-for-getting-middle-schoolers-up-to-speed-in-math%2F&docid=DYXjk6g65m6hQM&tbnid=epk5bfwj4bRfYM&vet=12ahUKEwi03fiuiqyPAxXFK0QIHS7xJMQQM3oECBoQAA..i&w=1200&h=720&hcb=2&ved=2ahUKEwi03fiuiqyPAxXFK0QIHS7xJMQQM3oECBoQAA)
+![image alt](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPchAAYbQkK0fBvntV-9TXmVEWDwMwYQVQQ&s)
