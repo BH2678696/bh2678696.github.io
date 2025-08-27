@@ -1,4 +1,5 @@
-# Welcome to My Portfolio Hello! My name is BH.
+# Welcome to My Portfolio 
+Hello! My name is BH.
 ## Projects
 - Project 1: Description
 - Project 2: Description
