@@ -1,5 +1,6 @@
-title: My WildCat Studios Portfolio description: >-
+title: My WildCat Studios Portfolio
+description: >-
          This is my portfolio showcasing my projects and skills.
-baseurl: ""
-url: "https://BH2678696.github.io"
-theme: jekyll-theme-mimima
+baseurl: "" 
+url: "https://BH2678696.github.io" 
+theme: jekyll-theme-minima
