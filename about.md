@@ -10,6 +10,6 @@ When I was little, I had a dream that I wanted to become a doctor when I grew up
 Have a great day to whoever is reading this :). 
 
 ![image alt](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMDCCZCksIkBIT8gvvuKHCdEfw0VsEzo-n-Q&s)
-![image alt](https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreerangestock.com%2Fphotos%2F113463%2Fcoding-and-programming--computer-science-and-it.html&psig=AOvVaw07xVmzuGItDiv13a6WXyC_&ust=1756421261656000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCJi22_KJrI8DFQAAAAAdAAAAABAL)
+![image alt](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-tj1MjczKUccWwqJ9UqXvjqiKUOoZG2K5Cw&s)
 
 
