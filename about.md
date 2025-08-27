@@ -10,6 +10,6 @@ When I was little, I had a dream that I wanted to become a doctor when I grew up
 Have a great day to whoever is reading this :). 
 
 ![image alt](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMDCCZCksIkBIT8gvvuKHCdEfw0VsEzo-n-Q&s)
-![image alt](![image alt](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMDCCZCksIkBIT8gvvuKHCdEfw0VsEzo-n-Q&s))
+(![image alt]([https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMDCCZCksIkBIT8gvvuKHCdEfw0VsEzo-n-Q&s](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT46vYsAC_51e86s26ZIwDJxmmm5cMhAlq74Q&s))
 
 
