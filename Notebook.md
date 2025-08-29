@@ -4,7 +4,6 @@
 - [Flutter Notes](#flutter-notes)
   - [What is Flutter?](#what-is-flutter)
   - [Key Terms](#key-terms-and-definitions)
-- [Day 2](#day-2)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 ## Flutter Notes
@@ -43,7 +42,6 @@
 - How do you align something to the left or right?
 - What widget adds space around content?
 
-## Day 2
 
 ## Markdown Style Guide for Coding Notebooks
 
