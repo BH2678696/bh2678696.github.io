@@ -5,8 +5,7 @@
   - [What is Flutter?](#what-is-flutter)
   - [Key Terms](#key-terms-and-definitions)
 - [Day 2](#day-2)
-  
--[Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
+- [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 ## Flutter Notes
 
