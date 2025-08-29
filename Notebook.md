@@ -10,8 +10,8 @@
 ## Flutter Notes
 
 ### What is Flutter?
-- Definition:
-- Why is it useful?
+- Definition: A framework made by Google for building apps that work on web, Android, and iOS- with one codebase. 
+- Why is it useful? It saves lots of time and money because you write the code and build the app one time and it displays on all three.
 
 ---
 
@@ -19,20 +19,24 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |                                                  |                                           |
-| MaterialApp      |                                                  |                                           |
-| Scaffold         |                                                  |                                           |
-| StatelessWidget  |                                                  |                                           |
-| StatefulWidget   |                                                  |                                           |
-| Navigator        |                                                  |                                           |
-| AppBar           |                                                  |                                           |
-| Column           |                                                  |                                           |
-| Row              |                                                  |                                           |
-| Container        |                                                  |                                           |
-| Text             |                                                  |                                           |
-| Image.network    |                                                  |                                           |
-
+| Widget           |                          Basic building block of a Flutter app. Everything is a widget.                        |                    Text, Image, Container, Column                       |
+| MaterialApp      |                         The root of the app. Sets up routes and themes.                         |                  Found in main.dart                         |
+| Scaffold         |                        Provides basic visual layout- like a header, body, floating button                          |                     Each screen uses it                      |
+| StatelessWidget  |                       A widget that doesn't change                           |                     Most of screen files                      |
+| Named Routes  |               Predefined paths to navigate between screens                                   |                   '/', '/page2', '/page3', etc.                        |
+| StatefulWidget   |                      A widget that can change over time                            |                      Used in MyHomePage()                     |
+| Navigator        |                         Manages screen transitions                         |                   Navigator.pushedNamed(context, '/page2');                        |
+| AppBar           |                       Top navigation bar                           |                  Title of each page appears here                         |
+| Column           |                        vertical layout                          |                                           |
+| Row              |                        horizontal layout                          |                                           |
+| Container        |                        wraps content with padding, margin, or color                          |                                           |
+| Text             |                     displays text                             |                                           |
+| Image.network    |                        displays images from a URL                          |                                           |
+| Padding           |                      adds space around a widget                            |                                           |
+| Center           |                           centers its child                       |                                           |
+| main()           |                         The function that runs the app                        |                    Found in main.dart                       |
 ---
+
 
 ### 🎨 Layout and Design Widgets
 - How do you center a widget?
@@ -54,8 +58,9 @@ This ensures your notes are easy for you (and others) to read later.
 - `##` for each day or major topic.  
 - `###` for subsections (like "Notes", "Practice", "Reflections").  
 
+
 ✅ Example:
-```markdown
+
 # My Coding Notebook
 ## Day 1
 ### Notes
