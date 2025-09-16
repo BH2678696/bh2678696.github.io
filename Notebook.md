@@ -5,7 +5,7 @@
   - [What is Flutter?](#what-is-flutter)
   - [Key Terms](#key-terms-and-definitions)
   - [Layout and Design Widgets](#layout-and-design-widgets)
-  - [Definitions with Structures](#flutter-definitions)
+  - [Flutter Definitions with Structures](#flutter-definitions-with-structures)
 - [Code Definitions](#code-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
@@ -46,7 +46,7 @@
 - What widget adds space around content?
 
 
-## Flutter Definitions
+## Flutter Definitions with Structures
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
