@@ -60,15 +60,15 @@
 |   Function   | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` | Typing on a keyboard |  |
 |   Parameter   | The information passed into a function to change how it works. | `greet(String name)` | Entering your username and password |  |
 |   Return   | The result a function gives back. | `return total;` | An error screen/code or getting an answer out of a calculation|  |
-|   Scope   | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
-|   Class   | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
-|   Object   | A specific version of a class. | `Dog myDog = Dog();` |  |  |
-|   Property   | A variable that belongs to a class/object. | `String name;` |  |  |
-|   Method   | A function that belongs to a class. | `void bark() {}` |  |  |
-|   Constructor   | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-|   Abstraction   | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
-|   Override   | Changing how a built-in or inherited function behaves. | `@override` |  |  |
-|   Void   | A function that does not return a value. | `void printMessage() {}` |  |  |
+|   Scope   | Where a variable or function can be used. | (No set syntax — concept-based) | IDs, gift cards, passwords, etc. |  |
+|   Class   | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | Everything |  |
+|   Object   | A specific version of a class. | `Dog myDog = Dog();` | Template for creating objects |  |
+|   Property   | A variable that belongs to a class/object. | `String name;` | What shirt you're wearing or what's in your backpack |  |
+|   Method   | A function that belongs to a class. | `void bark() {}` | What a student chooses to do (like stand up, read, listen etc.) |  |
+|   Constructor   | A special function used to set up a class when it’s created. | `Dog(this.name);` | Creating a new account in a social media app / Creates a thing|  |
+|   Abstraction   | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) | Typing on a keyboard because what you're typing is binary. |  |
+|   Override   | Changing how a built-in or inherited function behaves. | `@override` | Modifying a game such as chagnging a character's ability (make them jump higher or run faster) |  |
+|   Void   | A function that does not return a value. | `void printMessage() {}` | Turning on the light (you don't need anything else besides the light turning on) |  |
 
 
 
