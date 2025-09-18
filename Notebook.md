@@ -60,17 +60,17 @@
 |   Image.network   | A widget to show an image using a link from the internet. | `Image.network('https://...')` | User's profile pictures | in infocard.dart, child: Image.network(imageUrl, width: 100, height: 100, fit: BoxFit.cover), |
 |   ElevatedButton   | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` | The button | in showcase.dart, ElevatedButton( \n onPressed: () => Navigator.pushNamed(context, '/alt'), \n child: const Text('Alternate Design'), |
 |   onPressed   | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` | What happens when you click a button | in showcase.dart,  onPressed: () => Navigator.pushNamed(context, '/alt'), \n child: const Text('Alternate Design'), |
-|   StatelessWidget   | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` | Home Screen / Profile Page |  |
+|   StatelessWidget   | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` | Home Screen / Profile Page | in showcase.dart, class ShowcaseScreen extends StatelessWidget { \n const ShowcaseScreen({super.key}); |
 |   StatefulWidget   | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` | Like a game where the it changes (ping pong) |  |
-|   Navigator   | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` | Tapping on a user's profile to get to their page |  |
-|   Padding   | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` | Adding space between posters |  |
-|   Center   | Aligns content in the center of the screen or container. | `Center(child: ...)` | Put a poster on the center |  |
-|   Wrap   | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` | Writing in google docs and it goes to the next line |  |
-|   @override   | This marks a method as one that’s replacing a method in a parent class. | `@override` | Modifying a game such as changing a character's ability (make them jump higher or run faster) |  |
-|   Build   | Required in every widget class to describe what to show. | `build` | The plan to build a car |  |
-|   BuildContext   | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` | You're in class and you know where you have been already and where you need to go next |  |
-|   Super.key   | A keyword used to pass a value to the parent widget. | `super.key` | Reordering items in a to-do list |  |
-|   Const   | A keyword that means the value won't change and is set once. | `const` | Fixed texts and icons |  |
+|   Navigator   | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` | Tapping on a user's profile to get to their page | in showcase.dart, Navigator.pushNamed(context, '/alt'), |
+|   Padding   | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` | Adding space between posters | in showcase.dart, return Padding( \n padding: const EdgeInsets.all(4.0), |
+|   Center   | Aligns content in the center of the screen or container. | `Center(child: ...)` | Put a poster on the center |in showcase.dart, textAlign: TextAlign.center,  |
+|   Wrap   | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` | Writing in google docs and it goes to the next line | in showcase.dart, Wrap(alignment: WrapAlignment.center, children: puppyUrls.map((url) => puppyImage(url)).toList()), |
+|   @override   | This marks a method as one that’s replacing a method in a parent class. | `@override` | Modifying a game such as changing a character's ability (make them jump higher or run faster) | in showcase.dart, @override \n Widget build(BuildContext context) { \n final List<String> puppyUrls = [ |
+|   Build   | Required in every widget class to describe what to show. | `build` | The plan to build a car | in showcase.dart, Widget build(BuildContext context) { \n final List<String> puppyUrls = [ |
+|   BuildContext   | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` | You're in class and you know where you have been already and where you need to go next | in showcase.dart, build(BuildContext context) |
+|   Super.key   | A keyword used to pass a value to the parent widget. | `super.key` | Reordering items in a to-do list | in showcase.dart, const ShowcaseScreen({super.key}); |
+|   Const   | A keyword that means the value won't change and is set once. | `const` | Fixed texts and icons | in showcase.dart, const ShowcaseScreen({super.key}); |
 
 
 ## Code Definitions
