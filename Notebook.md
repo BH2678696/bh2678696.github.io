@@ -82,11 +82,11 @@
 |   Data Type   | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` | Numbers, letters, characters | in showcase.dart, Widget puppyImage(String url) { |
 |   String   | A sequence of characters used to represent words or text. | `"Hello World"` | Texts on our phones | in showcase.dart, Widget puppyImage(String url) { |
 |   Integer   | Whole number values. | `int age = 16;` | 1, 2, 3, 4... | in background.dart, const SizedBox(height: 8), |
-|   Double   | Number values with decimals. | `double age = 16.2;` | 1.1, 1.2, 1.3, 1.4... |  |
+|   Double   | Number values with decimals. | `double age = 16.2;` | 1.1, 1.2, 1.3, 1.4... | none found |
 |   Boolean   | A value that can be true or false. | `bool isLoggedIn = false;` | Lights (on and off) | in main.dart, debugShowCheckedModeBanner: false, |
 |   List   | A collection of values in a specific order. | `List<String> names = [];` | Real life lists | in showcase.dart, final List<String> puppyUrls = [ |
-|   Null   | A special value that means “nothing.” | `String? name = null;` | New contant with no name yet, empty schedule |  |
-|   Function   | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` | Typing on a keyboard | |
+|   Null   | A special value that means “nothing.” | `String? name = null;` | New contant with no name yet, empty schedule | none found |
+|   Function   | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` | Typing on a keyboard | in main.dart, class MyPortfolioApp extends StatelessWidget { |
 |   Parameter   | The information passed into a function to change how it works. | `greet(String name)` | Entering your username and password |  |
 |   Return   | The result a function gives back. | `return total;` | An error screen/code or getting an answer out of a calculation| in main.dart, return MaterialApp( |
 |   Scope   | Where a variable or function can be used. | (No set syntax — concept-based) | IDs, gift cards, passwords, etc. |  |
