@@ -51,8 +51,8 @@
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
 |   main()   | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` | Opening an app on your phone | in main.dart, void main() => runApp(MyPortfolioApp()); |
-|   MaterialApp   | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` | The code that sets the graphics |  |
-|   Scaffold   | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | Base app structure |  |
+|   MaterialApp   | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` | The code that sets the graphics | in main.dart, return MaterialApp \n debugShowCheckedModeBanner: false, \n title: 'TSA Portfolio',|
+|   Scaffold   | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | Base app structure | |
 |   Column   | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` | A list |  |
 |   Row   | A widget that shows things side-by-side. | `Row(...)` | Defining or explaining the column |  |
 |   Container   | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | Borders of pictures |  |
@@ -69,7 +69,7 @@
 |   @override   | This marks a method as one that’s replacing a method in a parent class. | `@override` | Modifying a game such as changing a character's ability (make them jump higher or run faster) |  |
 |   Build   | Required in every widget class to describe what to show. | `build` | The plan to build a car |  |
 |   BuildContext   | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` | You're in class and you know where you have been already and where you need to go next |  |
-|   Super.key   | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+|   Super.key   | A keyword used to pass a value to the parent widget. | `super.key` | Reordering items in a to-do list |  |
 |   Const   | A keyword that means the value won't change and is set once. | `const` | Fixed texts and icons |  |
 
 
