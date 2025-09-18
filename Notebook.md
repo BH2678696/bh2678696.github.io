@@ -29,13 +29,13 @@
 | StatefulWidget   |                      A widget that can change over time                            |                      Used in MyHomePage()                     |
 | Navigator        |                         Manages screen transitions                         |                   Navigator.pushedNamed(context, '/page2');                        |
 | AppBar           |                       Top navigation bar                           |                  Title of each page appears here                         |
-| Column           |                        vertical layout                          |                                           |
-| Row              |                        horizontal layout                          |                                           |
-| Container        |                        wraps content with padding, margin, or color                          |                                           |
-| Text             |                     displays text                             |                                           |
-| Image.network    |                        displays images from a URL                          |                                           |
-| Padding           |                      adds space around a widget                            |                                           |
-| Center           |                           centers its child                       |                                           |
+| Column           |                        vertical layout                          |                     A list of things                      |
+| Row              |                        horizontal layout                          |                    Describing the column (giving the information)                       |
+| Container        |                        wraps content with padding, margin, or color                          |                     Borders to images                      |
+| Text             |                     displays text                             |                    Text you see on the screen                       |
+| Image.network    |                        displays images from a URL                          |                       Dog images in the flutter app                    |
+| Padding           |                      adds space around a widget                            |                     Space around the image                      |
+| Center           |                           centers its child                       |                     Center texts and images                      |
 | main()           |                         The function that runs the app                        |                    Found in main.dart                       |
 ---
 
@@ -77,27 +77,27 @@
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-|   Variable   | A named container used to store a value that may change. | `var x = 5;` | XP/Points in a game, X Y Z Values |  |
-|   Constant   | A fixed value that cannot change once set. | `const PI = 3.14;` | Configuration settings |  |
-|   Data Type   | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` | Numbers, letters, characters |  |
-|   String   | A sequence of characters used to represent words or text. | `"Hello World"` | Texts on our phones |  |
-|   Integer   | Whole number values. | `int age = 16;` | 1, 2, 3, 4... |  |
+|   Variable   | A named container used to store a value that may change. | `var x = 5;` | XP/Points in a game, X Y Z Values | in main.dart, debugShowCheckedModeBanner: false, |
+|   Constant   | A fixed value that cannot change once set. | `const PI = 3.14;` | Configuration settings | in main.dart, appBarTheme: const AppBarTheme( |
+|   Data Type   | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` | Numbers, letters, characters | in showcase.dart, Widget puppyImage(String url) { |
+|   String   | A sequence of characters used to represent words or text. | `"Hello World"` | Texts on our phones | in showcase.dart, Widget puppyImage(String url) { |
+|   Integer   | Whole number values. | `int age = 16;` | 1, 2, 3, 4... | in background.dart, const SizedBox(height: 8), |
 |   Double   | Number values with decimals. | `double age = 16.2;` | 1.1, 1.2, 1.3, 1.4... |  |
-|   Boolean   | A value that can be true or false. | `bool isLoggedIn = false;` | Lights (on and off) |  |
-|   List   | A collection of values in a specific order. | `List<String> names = [];` | Real life lists |  |
+|   Boolean   | A value that can be true or false. | `bool isLoggedIn = false;` | Lights (on and off) | in main.dart, debugShowCheckedModeBanner: false, |
+|   List   | A collection of values in a specific order. | `List<String> names = [];` | Real life lists | in showcase.dart, final List<String> puppyUrls = [ |
 |   Null   | A special value that means “nothing.” | `String? name = null;` | New contant with no name yet, empty schedule |  |
-|   Function   | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` | Typing on a keyboard |  |
+|   Function   | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` | Typing on a keyboard | |
 |   Parameter   | The information passed into a function to change how it works. | `greet(String name)` | Entering your username and password |  |
-|   Return   | The result a function gives back. | `return total;` | An error screen/code or getting an answer out of a calculation|  |
+|   Return   | The result a function gives back. | `return total;` | An error screen/code or getting an answer out of a calculation| in main.dart, return MaterialApp( |
 |   Scope   | Where a variable or function can be used. | (No set syntax — concept-based) | IDs, gift cards, passwords, etc. |  |
-|   Class   | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | Everything |  |
+|   Class   | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | Everything | in main.dart, class MyPortfolioApp extends StatelessWidget { |
 |   Object   | A specific version of a class. | `Dog myDog = Dog();` | Template for creating objects |  |
 |   Property   | A variable that belongs to a class/object. | `String name;` | What shirt you're wearing or what's in your backpack |  |
 |   Method   | A function that belongs to a class. | `void bark() {}` | What a student chooses to do (like stand up, read, listen etc.) |  |
 |   Constructor   | A special function used to set up a class when it’s created. | `Dog(this.name);` | Creating a new account in a social media app / Creates a thing|  |
 |   Abstraction   | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) | Typing on a keyboard because what you're typing is binary. |  |
-|   Override   | Changing how a built-in or inherited function behaves. | `@override` | Modifying a game such as changing a character's ability (make them jump higher or run faster) |  |
-|   Void   | A function that does not return a value. | `void printMessage() {}` | Turning on the light (you don't need anything else besides the light turning on) |  |
+|   Override   | Changing how a built-in or inherited function behaves. | `@override` | Modifying a game such as changing a character's ability (make them jump higher or run faster) | in main.dart, @override \n Widget build(BuildContext context) { |
+|   Void   | A function that does not return a value. | `void printMessage() {}` | Turning on the light (you don't need anything else besides the light turning on) | in main.dart, void main() => runApp(MyPortfolioApp()); |
 
 
 
