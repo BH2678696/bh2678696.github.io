@@ -52,14 +52,14 @@
 |------|----------------------------|----------------|-------------------|-------------|
 |   main()   | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` | Opening an app on your phone | in main.dart, void main() => runApp(MyPortfolioApp()); |
 |   MaterialApp   | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` | The code that sets the graphics | in main.dart, return MaterialApp \n debugShowCheckedModeBanner: false, \n title: 'TSA Portfolio',|
-|   Scaffold   | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | Base app structure | |
-|   Column   | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` | A list |  |
-|   Row   | A widget that shows things side-by-side. | `Row(...)` | Defining or explaining the column |  |
-|   Container   | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | Borders of pictures |  |
-|   Text   | A widget to display text on the screen. | `Text('Hello')` | Words on the screen |  |
-|   Image.network   | A widget to show an image using a link from the internet. | `Image.network('https://...')` | User's profile pictures |  |
-|   ElevatedButton   | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` | The button |  |
-|   onPressed   | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` | What happens when you click a button |  |
+|   Scaffold   | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | Base app structure |in showcase.dart, return Scaffold( \n body: Column( |
+|   Column   | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` | A list | in showcase.dart, body: Column( \n mainAxisAlignment: MainAxisAlignment.start, |
+|   Row   | A widget that shows things side-by-side. | `Row(...)` | Defining or explaining the column | in infocard.dart, child: Row( \n children: [ \n ClipRRect( |
+|   Container   | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | Borders of pictures | in infocard.dart, return Container( \n margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16), |
+|   Text   | A widget to display text on the screen. | `Text('Hello')` | Words on the screen | in infocard.dart, child: Text( \n description, \n style: const TextStyle(color: Colors.white), |
+|   Image.network   | A widget to show an image using a link from the internet. | `Image.network('https://...')` | User's profile pictures | in infocard.dart, child: Image.network(imageUrl, width: 100, height: 100, fit: BoxFit.cover), |
+|   ElevatedButton   | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` | The button | in showcase.dart, ElevatedButton( \n onPressed: () => Navigator.pushNamed(context, '/alt'), \n child: const Text('Alternate Design'), |
+|   onPressed   | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` | What happens when you click a button | in showcase.dart,  onPressed: () => Navigator.pushNamed(context, '/alt'), \n child: const Text('Alternate Design'), |
 |   StatelessWidget   | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` | Home Screen / Profile Page |  |
 |   StatefulWidget   | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` | Like a game where the it changes (ping pong) |  |
 |   Navigator   | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` | Tapping on a user's profile to get to their page |  |
