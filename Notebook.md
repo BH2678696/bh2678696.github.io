@@ -50,28 +50,27 @@
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
-|      | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
-|      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
-|      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
-|      | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
-|      | A widget that shows things side-by-side. | `Row(...)` |  |  |
-|      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
-|      | A widget to display text on the screen. | `Text('Hello')` |  |  |
-|      | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
-|      | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
-|      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
-|      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
-|      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
-|      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
-|      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
-|      | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
-|      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
-|      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
-|      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
-|      | Required in every widget class to describe what to show. | `build` |  |  |
-|      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-|      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
-|      | A keyword that means the value won't change and is set once. | `const` |  |  |
+|   main()   | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` | Opening an app on your phone | in main.dart, void main() => runApp(MyPortfolioApp()); |
+|   MaterialApp   | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` | The code that sets the graphics |  |
+|   Scaffold   | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | Base app structure |  |
+|   Column   | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` | A list |  |
+|   Row   | A widget that shows things side-by-side. | `Row(...)` | Defining or explaining the column |  |
+|   Container   | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | Borders of pictures |  |
+|   Text   | A widget to display text on the screen. | `Text('Hello')` | Words on the screen |  |
+|   Image.network   | A widget to show an image using a link from the internet. | `Image.network('https://...')` | User's profile pictures |  |
+|   ElevatedButton   | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` | The button |  |
+|   onPressed   | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` | What happens when you click a button |  |
+|   StatelessWidget   | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` | Home Screen / Profile Page |  |
+|   StatefulWidget   | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` | Like a game where the it changes (ping pong) |  |
+|   Navigator   | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` | Tapping on a user's profile to get to their page |  |
+|   Padding   | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` | Adding space between posters |  |
+|   Center   | Aligns content in the center of the screen or container. | `Center(child: ...)` | Put a poster on the center |  |
+|   Wrap   | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` | Writing in google docs and it goes to the next line |  |
+|   @override   | This marks a method as one that’s replacing a method in a parent class. | `@override` | Modifying a game such as changing a character's ability (make them jump higher or run faster) |  |
+|   Build   | Required in every widget class to describe what to show. | `build` | The plan to build a car |  |
+|   BuildContext   | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` | You're in class and you know where you have been already and where you need to go next |  |
+|   Super.key   | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+|   Const   | A keyword that means the value won't change and is set once. | `const` | Fixed texts and icons |  |
 
 
 ## Code Definitions
@@ -97,7 +96,7 @@
 |   Method   | A function that belongs to a class. | `void bark() {}` | What a student chooses to do (like stand up, read, listen etc.) |  |
 |   Constructor   | A special function used to set up a class when it’s created. | `Dog(this.name);` | Creating a new account in a social media app / Creates a thing|  |
 |   Abstraction   | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) | Typing on a keyboard because what you're typing is binary. |  |
-|   Override   | Changing how a built-in or inherited function behaves. | `@override` | Modifying a game such as chagnging a character's ability (make them jump higher or run faster) |  |
+|   Override   | Changing how a built-in or inherited function behaves. | `@override` | Modifying a game such as changing a character's ability (make them jump higher or run faster) |  |
 |   Void   | A function that does not return a value. | `void printMessage() {}` | Turning on the light (you don't need anything else besides the light turning on) |  |
 
 
