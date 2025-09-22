@@ -87,15 +87,15 @@
 |   List   | A collection of values in a specific order. | `List<String> names = [];` | Real life lists | in showcase.dart, final List<String> puppyUrls = [ |
 |   Null   | A special value that means “nothing.” | `String? name = null;` | New contant with no name yet, empty schedule | none found |
 |   Function   | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` | Typing on a keyboard | in main.dart, class MyPortfolioApp extends StatelessWidget { |
-|   Parameter   | The information passed into a function to change how it works. | `greet(String name)` | Entering your username and password |  |
+|   Parameter   | The information passed into a function to change how it works. | `greet(String name)` | Entering your username and password | in main.dart, debugShowCheckedModeBanner: false, |
 |   Return   | The result a function gives back. | `return total;` | An error screen/code or getting an answer out of a calculation| in main.dart, return MaterialApp( |
-|   Scope   | Where a variable or function can be used. | (No set syntax — concept-based) | IDs, gift cards, passwords, etc. |  |
+|   Scope   | Where a variable or function can be used. | (No set syntax — concept-based) | IDs, gift cards, passwords, etc. | in main.dart, void main() => runApp(MyPortfolioApp()); |
 |   Class   | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | Everything | in main.dart, class MyPortfolioApp extends StatelessWidget { |
-|   Object   | A specific version of a class. | `Dog myDog = Dog();` | Template for creating objects |  |
-|   Property   | A variable that belongs to a class/object. | `String name;` | What shirt you're wearing or what's in your backpack |  |
-|   Method   | A function that belongs to a class. | `void bark() {}` | What a student chooses to do (like stand up, read, listen etc.) |  |
+|   Object   | A specific version of a class. | `Dog myDog = Dog();` | Template for creating objects | in main.dart, appBarTheme: const AppBarTheme( |
+|   Property   | A variable that belongs to a class/object. | `String name;` | What shirt you're wearing or what's in your backpack | in main.dart, displayLarge: TextStyle(fontSize: 36, color: Colors.white, fontWeight: FontWeight.bold), |
+|   Method   | A function that belongs to a class. | `void bark() {}` | What a student chooses to do (like stand up, read, listen etc.) | in main.dart (build is in MyPortfolioApp), Widget build(BuildContext context) { |
 |   Constructor   | A special function used to set up a class when it’s created. | `Dog(this.name);` | Creating a new account in a social media app / Creates a thing|  |
-|   Abstraction   | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) | Typing on a keyboard because what you're typing is binary. |  |
+|   Abstraction   | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) | Typing on a keyboard because what you're typing is binary. | All the code in the app because every pixel/picture we see is based on the code behind it. |
 |   Override   | Changing how a built-in or inherited function behaves. | `@override` | Modifying a game such as changing a character's ability (make them jump higher or run faster) | in main.dart, @override \n Widget build(BuildContext context) { |
 |   Void   | A function that does not return a value. | `void printMessage() {}` | Turning on the light (you don't need anything else besides the light turning on) | in main.dart, void main() => runApp(MyPortfolioApp()); |
 
