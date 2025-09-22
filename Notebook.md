@@ -37,6 +37,7 @@
 | Padding           |                      adds space around a widget                            |                     Space around the image                      |
 | Center           |                           centers its child                       |                     Center texts and images                      |
 | main()           |                         The function that runs the app                        |                    Found in main.dart                       |
+
 ---
 
 
