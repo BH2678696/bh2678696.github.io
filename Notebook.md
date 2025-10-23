@@ -99,6 +99,14 @@
 |   Abstraction   | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) | Typing on a keyboard because what you're typing is binary. | All the code in the app because every pixel/picture we see is based on the code behind it. |
 |   Override   | Changing how a built-in or inherited function behaves. | `@override` | Modifying a game such as changing a character's ability (make them jump higher or run faster) | in main.dart, @override \n Widget build(BuildContext context) { |
 |   Void   | A function that does not return a value. | `void printMessage() {}` | Turning on the light (you don't need anything else besides the light turning on) | in main.dart, void main() => runApp(MyPortfolioApp()); |
+|   Scanner   | Creates a scanner object to take input from user | Scanner in = new Scanner(System.in); |  |  |
+|   import Scanner   | Gives access to Scanner class, required at top | import java.util.Scanner; |  |  |
+|   print line statement   | prints the content in the parenthesis, adds line after | System.out.println(""); |  |  |
+|   print statement   | prints the content in the parenthesis | System.out.print(""); |  |  |
+|   input nextLine   | reads in a String from the user | input.nextLine(); |  |  |
+|   input nextInt   | reads in an int from the user | input.nextInt(); |  |  |
+|   input nextDouble   | reads in a double (decimal) from the user | input.nextDouble(); |  |  |
+|   input nextBoolean   | reads in a boolean (true/false) from the user | input.nextBoolean(); |  |  |
 
 
 
