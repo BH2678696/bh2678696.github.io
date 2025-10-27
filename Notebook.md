@@ -107,7 +107,8 @@
 |   input nextInt   | reads in an int from the user | input.nextInt(); |  |  |
 |   input nextDouble   | reads in a double (decimal) from the user | input.nextDouble(); |  |  |
 |   input nextBoolean   | reads in a boolean (true/false) from the user | input.nextBoolean(); |  |  |
-
+|   Arithmetic Operators   | Modulus, returns the remainder from dividing | + - * / |  |  |
+|   Compound Operators   | Applies the result to the variable | += -= *= /= %= ++(adds 1) |  |  |
 
 
 
