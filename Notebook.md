@@ -109,7 +109,9 @@
 |   input nextBoolean   | reads in a boolean (true/false) from the user | input.nextBoolean(); |  |  |
 |   Arithmetic Operators   | Modulus, returns the remainder from dividing | + - * / |  |  |
 |   Compound Operators   | Applies the result to the variable | += -= *= /= %= ++(adds 1) |  |  |
-
+|   Maximum int   | The max value an int can hold: 2147483647 | Integer.MAX_VALUE |  |  |
+|   Minimum int   | The minimum value an int can hold: -2147483648 | Integer.MIN_VALUE |  |  |
+|      |  |  |  |  |
 
 
 
