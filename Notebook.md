@@ -112,6 +112,10 @@
 |   Maximum int   | The max value an int can hold: 2147483647 | Integer.MAX_VALUE |  |  |
 |   Minimum int   | The minimum value an int can hold: -2147483648 | Integer.MIN_VALUE |  |  |
 |   integer overflow   | Int MAX_VALUE + 1 == MIN_VALUE, it wraps around |  |  |  |
+|   Overloaded Method/Functon or Constructor   | uses the same name, but has different parameters | Pizza(), Pizza(String toppings) 2 constructors, first is a default cheese pizza, 2nd has 1 topping|  |  |
+|      |  |  |  |  |
+|      |  |  |  |  |
+|      |  |  |  |  |
 
 
 
