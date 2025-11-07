@@ -113,8 +113,8 @@
 |   Minimum int   | The minimum value an int can hold: -2147483648 | Integer.MIN_VALUE |  |  |
 |   integer overflow   | Int MAX_VALUE + 1 == MIN_VALUE, it wraps around |  |  |  |
 |   Overloaded Method/Functon or Constructor   | uses the same name, but has different parameters | Pizza(), Pizza(String toppings) 2 constructors, first is a default cheese pizza, 2nd has 1 topping|  |  |
-|      |  |  |  |  |
-|      |  |  |  |  |
+|   dot notation   | Methods are called on objects using a dot after the object name | object.method(value); |  |  |
+|   Concatenate   | To combine Strings with other Strings and/or variables | String greeting = "Hello" + "My name is " + name +". ";|  |  |
 |      |  |  |  |  |
 
 
