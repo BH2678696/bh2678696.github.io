@@ -117,6 +117,9 @@
 |   Concatenate   | To combine Strings with other Strings and/or variables | String greeting = "Hello" + "My name is " + name +". ";|  |  |
 | Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
 | Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
+|   Index   | location value of each character in a String or list, starting at 0 | "Hello" index of 'e' is 1 |  |  |
+|      |  |  |  |  |
+|      |  |  |  |  |
 |      |  |  |  |  |
 
 
