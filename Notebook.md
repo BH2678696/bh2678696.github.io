@@ -6,7 +6,7 @@
   - [Key Terms](#key-terms-and-definitions)
   - [Layout and Design Widgets](#layout-and-design-widgets)
   - [Flutter Definitions with Structures](#flutter-definitions-with-structures)
-  - [String Notes](#string-notes)
+- [String Notes](#string-notes)
 - [Code Definitions](#code-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
