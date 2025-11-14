@@ -6,6 +6,7 @@
   - [Key Terms](#key-terms-and-definitions)
   - [Layout and Design Widgets](#layout-and-design-widgets)
   - [Flutter Definitions with Structures](#flutter-definitions-with-structures)
+  - [String Notes](#string-notes)
 - [Code Definitions](#code-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
@@ -122,7 +123,6 @@
 |      |  |  |  |  |
 |      |  |  |  |  |
 
-[String Notes](#string-notes)
 ### String Notes
   - Strings have idices (plural for index), which start at 0. "Hello" has indices 0(H), 1(e), 2(l), 3(l), 4(o).
   - Final index in a String is length -1;
