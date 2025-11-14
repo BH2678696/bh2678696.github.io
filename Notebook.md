@@ -118,10 +118,17 @@
 | Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
 | Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
 |   Index   | location value of each character in a String or list, starting at 0 | "Hello" index of 'e' is 1 |  |  |
-|      |  |  |  |  |
+|   Substring   | Part of a larger String  | "llo" is a sunString of "Hello" |  |  |
 |      |  |  |  |  |
 |      |  |  |  |  |
 
+[String Notes](#string-notes)
+### String Notes
+  - Strings have idices (plural for index), which start at 0. "Hello" has indices 0(H), 1(e), 2(l), 3(l), 4(o).
+  - Final index in a String is length -1;
+
+### String Methods Table
+<img width="1220" height="407" alt="image" src="https://github.com/user-attachments/assets/b65f5106-c9c9-462a-844a-0acae34292d6" />
 
 
 ## Markdown Style Guide for Coding Notebooks
